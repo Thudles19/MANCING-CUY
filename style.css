@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.animasi-tulisan {
+    font-size: 24px; /* Ukuran awal tulisan */
+    animation: jedagJedug 1s infinite alternate; /* Nama animasi, durasi, dan iterasi */
+  }
+  
+  @keyframes jedagJedug {
+    0% {
+      font-size: 18px; /* Ukuran awal */
+    }
+    50% {
+      font-size: 22px; /* Ukuran sedang */
+    }
+    100% {
+        font-size: 18px; /* Ukuran maksimal */
+      }
+  }
+  
+  .teks-warna {
+    color: red; /* Warna teks */
+  }
+  
